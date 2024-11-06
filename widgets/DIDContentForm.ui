@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DIDContentForm</class>
+ <widget class="QWidget" name="DIDContentForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>247</width>
+    <height>167</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>ecu:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox_ecu">
+       <item>
+        <property name="text">
+         <string>Unknow</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tbox</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Bms</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mcu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dcdc</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Abs</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Scm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Inv</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ofbc</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Imu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tft</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lcsc</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rcsc</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Flm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hlc</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Wpc</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dik</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lpdc</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tpms</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cddc</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Gcu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Vcu</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hmi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Obc</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hhd</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Obd</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TboxSK</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>BmsSK</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QListWidget" name="listWidget"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

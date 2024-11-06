@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AlertForm</class>
+ <widget class="QWidget" name="AlertForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>561</width>
+    <height>45</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>45</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton#btn_del{
+	background-color: rgb(78, 154, 6);
+   color:white;
+}</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>12</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>alertItem:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <item>
+        <property name="text">
+         <string>UNKNWON</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_VIBRATION</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_POSTION_MOVE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_FP_LEAK</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_RP_LEAK</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_TYPE_HIGH_TEMP</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_FP_HIGH_PRESSURE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_RP_HIGH_PRESSURE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_FP_LOW_PRESSURE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_RP_LOW_PRESSURE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_FALL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_CRASH</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_TOPPLE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_GUARD_DANGEROUS</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_PARKING</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_MOVING</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_RAPID_ACCELERATION</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_IN_FENCE</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ALERT_OUT_FENCE</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="checkBox">
+       <property name="text">
+        <string>status</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_del">
+       <property name="maximumSize">
+        <size>
+         <width>30</width>
+         <height>35</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>X</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
